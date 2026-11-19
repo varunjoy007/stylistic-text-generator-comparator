@@ -1,3 +1,6 @@
+import sys, pathlib
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
+
 """Milestone unit & integration tests for Stylistic Text Generator Comparator."""
 from app.core import (
     LoRALinear,
